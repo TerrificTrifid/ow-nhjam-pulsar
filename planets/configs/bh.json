@@ -2,7 +2,11 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Brittle Hollow",
 	"removeChildren": [
-
+		"Sector_BH/Sector Main Bridge/Fragment B8_MainBridge/Destructible B8_MainBridge",
+		"Sector_BH/Sector_Crossroads/Characters_Crossroads",
+		"Sector_BH/Sector_Crossroads/Props_Crossroads/OtherComponentsGroup/Reibeck_Camp/Props_HEA_Probe_STATIC",
+		"Sector_BH/Sector_Crossroads/Props_Crossroads/OtherComponentsGroup/Reibeck_Camp/Props_HEA_ProbeLauncher",
+		"Sector_BH/Sector_Crossroads/Interactables_Crossroads/Prefab_HEA_FuelTank"
 	],
 	"Props": {
 		"details": [
