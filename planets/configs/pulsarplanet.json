@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Pulsar Planet",
+	"starSystem": "Trifid.JamPulsar",
+	"Base": {
+		"groundSize": 300,
+		"surfaceSize": 300,
+		"surfaceGravity": 10,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"primaryBody": "Pulsar",
+		"semiMajorAxis": 20000,
+		"siderealPeriod": 10
+	},
+	"Spawn" : {
+		"playerSpawnPoint" :
+		{"x": 0, "y": 300, "z": 0},
+		"shipSpawnPoint" :
+		{"x": 0, "y": 300, "z": 0},
+		"startWithSuit" : true
+	},
+	"Props": {
+		"details": [
+			
+		]
+	}
+}

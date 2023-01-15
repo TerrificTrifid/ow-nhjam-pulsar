@@ -1,0 +1,43 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Pulsar",
+	"starSystem": "Trifid.JamPulsar",
+	"Base" : {
+		"surfaceGravity" : 250000,
+		"surfaceSize" : 25,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"centerOfSolarSystem" : true
+	},
+	"Orbit" : {
+		"isStatic" : true,
+		"siderealPeriod": 0.0266666
+	},
+	"Star" : {
+		"size" : 25,
+		"tint" : {
+			"r" : 200,
+			"g" : 200,
+			"b" : 512,
+			"a" : 255
+		},
+		"solarLuminosity" : 1,
+		"lightRadius": 50000,
+		"lightTint": {
+			"r" : 128,
+			"g" : 128,
+			"b" : 255,
+			"a" : 255
+		},
+		"stellarDeathType": "none"
+	},
+	"Props": {
+		"details": [
+
+		],
+		"singularities": [
+			
+		]
+	}
+	
+}

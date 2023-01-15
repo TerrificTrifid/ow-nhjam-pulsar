@@ -1,0 +1,16 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"canEnterViaWarpDrive" : true,
+	"startHere" : false,
+	"Skybox": {
+		"destroyStarField": false,
+		"useCube": true,
+		"rightPath": "planets/assets/sky_pos_x.jpg",
+		"leftPath": "planets/assets/sky_neg_x.jpg",
+		"topPath": "planets/assets/sky_pos_y.jpg",
+		"bottomPath": "planets/assets/sky_neg_y.jpg",
+		"frontPath": "planets/assets/sky_pos_z.jpg",
+		"backPath": "planets/assets/sky_neg_z.jpg"
+	},
+	"travelAudio": "planets/assets/Pulsar.ogg"
+}
