@@ -1,0 +1,16 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Timber Hearth",
+	"Props": {
+		"dialogue": [
+			{
+				"xmlFile": "planets/xml/slate.xml",
+				"position": {"x": 17.17147, "y": -41.29899, "z": 186.9369},
+			 	"radius": 0, 
+				"remoteTriggerPosition": {"x": 6.54595, "y": -42.22185, "z": 186.5556}, 
+				"remoteTriggerRadius": 2, 
+				"blockAfterPersistentCondition": "JamPulsar_SlateCallout"
+			}
+		]
+	}
+}

@@ -1,0 +1,20 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Slate</NameField>
+
+	<DialogueNode>
+		<Name>START</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey, can you check on Riebeck? They radioed home saying they were about to invesgitate something extraordinary, but we haven't heard them since.</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Sure thing.</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+		<SetPersistentCondition>JamPulsar_SlateCallout</SetPersistentCondition>
+	</DialogueNode>
+
+</DialogueTree>
