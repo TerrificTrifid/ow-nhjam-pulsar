@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3908892476
+CRC: 1408568641
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: fc05517e409d5e0ff1d6b367692f18b3
+    Hash: 8d4ebccbc49c8501c3c3bff3841d848c
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 2f39140c071098981c5c75e9956fe028
+    Hash: 9e6cdc9495469ac7323934570c0ece18
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -29,7 +29,13 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
 - Class: 89
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
   Script: {instanceID: 0}
 - Class: 108
   Script: {instanceID: 0}
@@ -37,12 +43,16 @@ ClassTypes:
   Script: {fileID: 11500000, guid: e5afbfd7790013445b68401b74453dce, type: 3}
 - Class: 115
   Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Pulsar/PulsarBeams.prefab
 - Assets/Pulsar/pulsarplanet_draft1.prefab
 - Assets/Pulsar/pulsarplanet_draft1_proxy.prefab
 - Assets/Pulsar/AmbientLight_Surface.prefab
 - Assets/Pulsar/SunOverride.prefab
+- Assets/Pulsar/volumetest.prefab
 - Assets/Pulsar/AmbientLight_Interior.prefab
 - Assets/Pulsar/AmbientLight_Core.prefab
 Dependencies: []

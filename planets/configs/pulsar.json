@@ -11,7 +11,7 @@
 	},
 	"Orbit" : {
 		"isStatic" : true,
-		"siderealPeriod": 0.0266666
+		"siderealPeriod": 0.0233333
 	},
 	"Star" : {
 		"size" : 25,
@@ -33,7 +33,7 @@
 	},
 	"Props": {
 		"details": [
-
+			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/PulsarBeams.prefab", "scale": 500, "keepLoaded": true }
 		],
 		"singularities": [
 			
