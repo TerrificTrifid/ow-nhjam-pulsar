@@ -4,7 +4,7 @@
 	"starSystem": "Trifid.JamPulsar",
 	"Base": {
 		"surfaceSize": 300,
-		"surfaceGravity": 10,
+		"surfaceGravity": 9,
 		"hasMapMarker": true
 	},
 	"Orbit": {
@@ -14,9 +14,9 @@
 	},
 	"Spawn" : {
 		"playerSpawnPoint" :
-		{"x": -15, "y": -15, "z": -315},
+		{"x": -15, "y": -15, "z": -312},
 		"shipSpawnPoint" :
-		{"x": -15, "y": -15, "z": -315},
+		{"x": -15, "y": -15, "z": -312},
 		"startWithSuit" : true
 	},
 	"Atmosphere": {
@@ -38,7 +38,6 @@
 			"b" : 128,
 			"a" : 255
 		},
-		"hasSnow": true,
 		"hasShockLayer": false
 	},
 	"Water": {
@@ -46,26 +45,26 @@
 	},
 	"Props": {
 		"details": [
-			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/pulsarplanet_draft1.prefab" },
-			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/pulsarplanet_draft1_proxy.prefab", "scale": 0.999, "keepLoaded": true },
+			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/pulsarplanetdraft2_surface.prefab", "keepLoaded": true },
+			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/pulsarplanetdraft2_interior.prefab" },
 			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/SunOverride.prefab" },
 			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/AmbientLight_Surface.prefab" },
 			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/AmbientLight_Interior.prefab" },
 			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/AmbientLight_Core.prefab" }
-		],
-		"proxyDetails": [
-			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/pulsarplanet_draft1_proxy.prefab" }
 		]
 	},
 	"Volumes": {
 		"audioVolumes": [
 			{ "audio": "planets/assets/AncientGlade_loopedit.ogg", "track": "music", "position": {"x": 0, "y": 0, "z": 0}, "radius": 260, "fadeSeconds": 5, "volume": 0.5 }
 		],
+		"hazardVolumes": [
+			{ "type": "riverHeat", "damagePerSecond": 10, "radius": 100 }
+		],
 		"oxygenVolumes": [
 			{ "treeVolume": true, "radius": 260 }
 		],
 		"reverbVolumes": [
-			{ "radius": 275 }
+			{ "radius": 295 }
 		]
 	}
 }
