@@ -2,7 +2,7 @@
 	<NameField>Bismusto</NameField>
 
 	<DialogueNode>
-		<Name>START</Name>
+		<Name>0</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
 			<Page>Hey it's me Bismusto the magic talking bismuthfish.</Page>
@@ -10,9 +10,19 @@
 
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>I have no words</Text>
+				<Text>Real?</Text>
+				<DialogueTarget>1</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>No.</Page>
+		</Dialogue>
+
+		<SetCondition>BismustoNotReal</SetCondition>
 	</DialogueNode>
 
 </DialogueTree>

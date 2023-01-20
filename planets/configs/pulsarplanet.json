@@ -44,13 +44,18 @@
 		"size": 100
 	},
 	"Props": {
+		"dialogue": [
+			{ "xmlFile" : "planets/xml/bismusto.xml", "position": {"x": 18.35106, "y": 204.9386, "z": 80.96686}, "radius": 2, "rename": "Bismusto", "blockAfterPersistentCondition": "BismustoNotReal" }
+		],
 		"details": [
 			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/pulsarplanetdraft2_surface.prefab", "keepLoaded": true },
 			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/pulsarplanetdraft2_interior.prefab" },
 			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/SunOverride.prefab" },
 			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/AmbientLight_Surface.prefab" },
 			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/AmbientLight_Interior.prefab" },
-			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/AmbientLight_Core.prefab" }
+			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/AmbientLight_Core.prefab" },
+			{ "path": "Anglerfish_Body/Beast_Anglerfish", "position": {"x": 18.35106, "y": 204.9386, "z": 80.96686}, "rotation": {"x": 345.8461, "y": 181.4572, "z": 4.7892}, "scale" : 0.02, "parentPath": "Sector/Bismusto", "removeChildren": ["B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"] },
+			{ "path": "Anglerfish_Body/Beast_Anglerfish_Collision", "position": {"x": 18.35106, "y": 204.9386, "z": 80.96686}, "rotation": {"x": 345.8461, "y": 181.4572, "z": 4.7892}, "scale" : 0.02, "parentPath": "Sector/Bismusto" }
 		]
 	},
 	"Volumes": {
