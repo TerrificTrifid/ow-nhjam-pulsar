@@ -1,8 +1,8 @@
 {
   "filename": "NewHorizonsConfig.dll",
   "author": "Trifid, JamesRetro",
-  "name": "¯|_(ツ)_|¯",
-  "uniqueName": "Trifid.JamPulsar",
+  "name": "The Eternal Gift",
+  "uniqueName": "TerrificTrifid.EternalGift",
   "version": "0.0.0",
   "owmlVersion": "2.7.2",
   "dependencies": [ "xen.NewHorizons" ]

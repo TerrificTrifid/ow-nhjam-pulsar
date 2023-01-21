@@ -1,14 +1,14 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name" : "Pulsar Planet",
-	"starSystem": "Trifid.JamPulsar",
+	"name" : "Spectral Heartbeat",
+	"starSystem": "TerrificTrifid.EternalGift",
 	"Base": {
 		"surfaceSize": 300,
 		"surfaceGravity": 9,
 		"hasMapMarker": true
 	},
 	"Orbit": {
-		"primaryBody": "Pulsar",
+		"primaryBody": "Rhythmic Revenant",
 		"semiMajorAxis": 15000,
 		"siderealPeriod": 10
 	},
