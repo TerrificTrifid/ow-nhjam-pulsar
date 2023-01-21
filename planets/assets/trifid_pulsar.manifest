@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4205217175
+CRC: 4077098588
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 3f865cbd4bc681b447b08ec1e3da3a91
+    Hash: 37deba0e5a6cbf321656c7a6c6c9cc23
   TypeTreeHash:
     serializedVersion: 2
     Hash: 3b606774c8bfd31f07d212a6c2685c71
@@ -56,6 +56,7 @@ Assets:
 - Assets/Pulsar/AmbientLight_Surface.prefab
 - Assets/Pulsar/SunOverride.prefab
 - Assets/Pulsar/volumetest.prefab
+- Assets/Pulsar/CoreSteam.prefab
 - Assets/Pulsar/AmbientLight_Interior.prefab
 - Assets/Pulsar/AmbientLight_Core.prefab
 - Assets/Pulsar/pulsarplanetdraft2_surface.prefab

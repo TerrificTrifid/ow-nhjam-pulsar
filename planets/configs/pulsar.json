@@ -11,7 +11,7 @@
 	},
 	"Orbit" : {
 		"isStatic" : true,
-		"siderealPeriod": 0.0233333
+		"siderealPeriod": 0.025
 	},
 	"Star" : {
 		"size" : 25,
