@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+
+	<DialogueNode>
+		<Name>0</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>So the towers continue underground!</Page>
+			<Page>It looks like the light is traveling downward as it pulsates... oh, I bet it’s energy! Energy from the star, being collected and sent down to... something. Yeah, that would make sense.</Page>
+			<Page>Alright, let’s see where the path keeps going...</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>
