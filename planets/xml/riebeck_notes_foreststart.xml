@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+
+	<DialogueNode>
+		<Name>0</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>I don’t know what I expected, but... wow... not this beautiful forest!</Page>
+			<Page>I have no words... for the forest, I mean. I have words for the path markers over there!</Page>
+			<Page>I get to hike through a forest of lantern trees! This was so worth it!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

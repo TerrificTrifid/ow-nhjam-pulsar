@@ -30,6 +30,7 @@
 		"dialogue": [
 			{ "xmlFile" : "planets/xml/bismusto.xml", "position": {"x": 18.35106, "y": 204.9386, "z": 80.96686}, "radius": 2, "rename": "Bismusto", "blockAfterPersistentCondition": "BismustoNotReal" },
 			{ "xmlFile" : "planets/xml/riebeck_recorder_entrance.xml", "position": {"x": -32.53546, "y": 0.965065, "z": -308.696}, "radius": 1 },
+			{ "xmlFile" : "planets/xml/riebeck_notes_foreststart.xml", "position": {"x": 0, "y": 0, "z": 0}, "radius": 0.6, "parentPath": "Sector/ForestStartNotes", "isRelativeToParent": true },
 			{ "xmlFile" : "planets/xml/riebeck_notes_southtower.xml", "position": {"x": 0, "y": 0, "z": 0}, "radius": 0.6, "parentPath": "Sector/SouthTowerNotes", "isRelativeToParent": true },
 			{ "xmlFile" : "planets/xml/riebeck_notes_northtower.xml", "position": {"x": 0, "y": 0, "z": 0}, "radius": 0.6, "parentPath": "Sector/NorthTowerNotes", "isRelativeToParent": true },
 			{ "xmlFile" : "planets/xml/riebeck.xml", "position": {"x": -0.134, "y": 1.651, "z": 0.279}, "radius": 1.5, "parentPath": "Sector/Riebeck", "isRelativeToParent": true, "pathToAnimController": "Sector/Riebeck" }
@@ -47,13 +48,20 @@
 			
 			{ "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder", "position": {"x": -32.53546, "y": 0.965065, "z": -308.696}, "rotation": {"x": 339.944, "y": 275.5955, "z": 94.82211}, "removeComponents": true },
 
+			{ "rename": "ForestStartNotes", "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Journal_2", "position": {"x": 0, "y": 0, "z": -220.05}, "alignToNormal": true, "removeChildren": ["InteractVolume"] },
+			{ "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Lighting_Crossroads/Props_HEA_Lantern", "position": {"x": 0.6, "y": 0, "z": -0.3}, "parentPath": "Sector/ForestStartNotes", "isRelativeToParent": true },
+
 			{ "rename": "SouthTowerNotes", "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Journal_2", "position": {"x": 32.4499, "y": -214.5295, "z": -35.76986}, "alignToNormal": true, "removeChildren": ["InteractVolume"] },
 			{ "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Lighting_Crossroads/Props_HEA_Lantern", "position": {"x": 0.6, "y": 0, "z": -0.3}, "parentPath": "Sector/SouthTowerNotes", "isRelativeToParent": true },
 
-			{ "rename": "NorthTowerNotes", "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Journal_2", "position": {"x": -34.5214, "y": 158.3678, "z": 30.8413}, "alignToNormal": true, "removeChildren": ["InteractVolume"] },
+			{ "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Prefab_HEA_FuelTank", "position": {"x": -0.3534, "y": 2.0318, "z": 165.7818}, "rotation": {"x": 61.3104, "y": 264.8838, "z": 180} },
+			{ "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Lighting_Crossroads/Props_HEA_Lantern", "position": {"x": -0.04541874, "y": 2.702942, "z": 165.6661}, "alignToNormal": true },
+
+			{ "rename": "NorthTowerNotes", "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Journal_2", "position": {"x": -34.5214, "y": 158.3678, "z": 30.8413}, "alignToNormal": true, "removeChildren": ["InteractVolume", "plaque_paper_1 (2)", "plaque_paper_1 (3)"] },
 			{ "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Lighting_Crossroads/Props_HEA_Lantern", "position": {"x": 0.6, "y": 0, "z": -0.3}, "parentPath": "Sector/NorthTowerNotes", "isRelativeToParent": true },
 
-			{ "rename": "Riebeck", "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Characters_Crossroads/Traveller_HEA_Riebeck", "position": {"x": 35.51599, "y": -0.3446579, "z": -160.3354}, "alignToNormal": true, "removeChildren": ["ConversationZone_Riebeck"] }
+			{ "rename": "Riebeck", "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Characters_Crossroads/Traveller_HEA_Riebeck", "position": {"x": 35.51599, "y": -0.3446579, "z": -160.3354}, "alignToNormal": true, "removeChildren": ["ConversationZone_Riebeck"] },
+			{ "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Prefab_HEA_FuelTank", "position": {"x": 33.79641, "y": -0.8585205, "z": -160.6595}, "rotation": {"x": 16.5783, "y": 256.7559, "z": 180} }
 		],
 		"signals": [
 			{ "name": "Riebeck", "audio": "TravelerRiebeck", "frequency": "Traveler", "position": {"x": 36.12698, "y": 0.2826512, "z": -161.6861}, "sourceRadius": 0.2, "identificationRadius": 10, "detectionRadius": 50, "onlyAudibleToScope": false }
