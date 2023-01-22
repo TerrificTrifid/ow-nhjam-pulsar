@@ -21,7 +21,15 @@
 	},
 	"Atmosphere": {
 		"size": 300,
-		"useAtmosphereShader": false
+		"useAtmosphereShader": false,
+		"fogSize": 160,
+		"fogDensity": 1,
+		"fogTint": {
+			"r" : 220,
+			"g" : 220,
+			"b" : 255,
+			"a" : 255
+		}
 	},
 	"Water": {
 		"size": 100
