@@ -20,25 +20,8 @@
 		"startWithSuit" : true
 	},
 	"Atmosphere": {
-		"size" : 400,
-		"fogTint" : 
-		{
-			"r" : 64,
-			"g" : 64,
-			"b" : 128,
-			"a" : 255
-		},
-		"fogDensity": 0.1,
-		"fogSize": 400,
-		"useAtmosphereShader": true,
-		"atmosphereTint" : 
-		{
-			"r" : 64,
-			"g" : 64,
-			"b" : 128,
-			"a" : 255
-		},
-		"hasShockLayer": false
+		"size": 300,
+		"useAtmosphereShader": false
 	},
 	"Water": {
 		"size": 100
@@ -46,7 +29,8 @@
 	"Props": {
 		"dialogue": [
 			{ "xmlFile" : "planets/xml/bismusto.xml", "position": {"x": 18.35106, "y": 204.9386, "z": 80.96686}, "radius": 2, "rename": "Bismusto", "blockAfterPersistentCondition": "BismustoNotReal" },
-			{ "xmlFile" : "planets/xml/riebeck_recorder_entrance.xml", "position": {"x": -32.53546, "y": 0.965065, "z": -308.696}, "radius": 1 }
+			{ "xmlFile" : "planets/xml/riebeck_recorder_entrance.xml", "position": {"x": -32.53546, "y": 0.965065, "z": -308.696}, "radius": 1 },
+			{ "xmlFile" : "planets/xml/riebeck.xml", "position": {"x": -0.134, "y": 1.651, "z": 0.279}, "radius": 1.5, "parentPath": "Sector/Riebeck", "isRelativeToParent": true, "pathToAnimController": "Sector/Riebeck" }
 		],
 		"details": [
 			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/pulsarplanetdraft2_surface.prefab", "keepLoaded": true },
@@ -58,7 +42,13 @@
 			{ "assetBundle": "planets/assets/trifid_pulsar", "path": "Assets/Pulsar/CoreSteam.prefab" },
 			{ "path": "Anglerfish_Body/Beast_Anglerfish", "position": {"x": 18.35106, "y": 204.9386, "z": 80.96686}, "rotation": {"x": 345.8461, "y": 181.4572, "z": 4.7892}, "scale" : 0.02, "parentPath": "Sector/Bismusto", "removeChildren": ["B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"] },
 			{ "path": "Anglerfish_Body/Beast_Anglerfish_Collision", "position": {"x": 18.35106, "y": 204.9386, "z": 80.96686}, "rotation": {"x": 345.8461, "y": 181.4572, "z": 4.7892}, "scale" : 0.02, "parentPath": "Sector/Bismusto" },
-			{ "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder", "position": {"x": -32.53546, "y": 0.965065, "z": -308.696}, "rotation": {"x": 339.944, "y": 275.5955, "z": 94.82211}, "removeComponents": true }
+			
+			{ "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder", "position": {"x": -32.53546, "y": 0.965065, "z": -308.696}, "rotation": {"x": 339.944, "y": 275.5955, "z": 94.82211}, "removeComponents": true },
+
+			{ "rename": "Riebeck", "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Characters_Crossroads/Traveller_HEA_Riebeck", "position": {"x": 35.51599, "y": -0.3446579, "z": -160.3354}, "alignToNormal": true, "removeChildren": ["ConversationZone_Riebeck"] }
+		],
+		"signals": [
+			{ "name": "Riebeck", "audio": "TravelerRiebeck", "frequency": "Traveler", "position": {"x": 36.12698, "y": 0.2826512, "z": -161.6861}, "sourceRadius": 0.2, "identificationRadius": 10, "detectionRadius": 50, "onlyAudibleToScope": false }
 		]
 	},
 	"Volumes": {

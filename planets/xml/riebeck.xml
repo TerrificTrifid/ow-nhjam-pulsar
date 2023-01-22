@@ -1,0 +1,104 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Riebeck</NameField>
+
+	<DialogueNode>
+		<Name>0</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hatchling?! What are you doing here?! I mean, fantastic job getting here!</Page>
+			<Page>I- okay, obviously so much has happened! You’ve probably read my notes but <![CDATA[<i>wow</i>]]>, this mural here! And the <![CDATA[<i>core</i>]]>! This is the best thing that’s ever happened in the history of Outer Wilds Ventures!</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Wait what mural?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What do you think this all means?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<EntryCondition>TalkedToRiebeck</EntryCondition>
+		<Dialogue>
+			<Page>Hi.</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>So what does this all mean again?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Hi.</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>So um, again, <![CDATA[<i>wow</i>]]>, this mural! My interpretation is that this alien race- and look, those are <![CDATA[<i>wings</i>]]>! They can fly, I knew it! Imagine how bizarre their spacesuits must have been!</Page>
+			<Page>Anyway, um, so yeah, the wings point at what looks like a <![CDATA[<i>shield</i>]]> that protected the planet from a <![CDATA[<i>supernova</i>]]>! I think the strange star outside is the remnant of that!</Page>
+			<Page>But the shield is gone now, as well as all those buildings on the planet. So the question is, why would they retract their presence after doing so much to save it? I have a theory!</Page>
+			<Page>So, the core of this planet. An incredible sight! And as you can see, the purpose of the towers is to heat it!</Page>
+			<Page>My theory, based on all of this, is that they chose to preserve this beautiful forest by removing themselves, and leaving behind the towers to keep the core warm <![CDATA[<i>forever</i>]]>! An eternal gift!</Page>
+			<Page>Gosh, I really wish I could learn more about this civilization, but I don’t think there’s anything else here. And... oh stars above, I forgot to tell anyone before flying into the wormhole, didn’t I?</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Yeah...</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+		<SetCondition>TalkedToRiebeck</SetCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>Go look!</Page>
+		</Dialogue>
+
+		<SetCondition>LookAtMural</SetCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>I’ll uh, I’ll hike back eventually. This is a really big moment for me, y’know?</Page>
+			<Page>I would have made a fire, but uh, I don’t think that would be very appropriate, obviously.</Page>
+			<Page>Seeya around, hatchling.</Page>
+		</Dialogue>
+
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>5</Name>
+		<EntryCondition>LookAtMural</EntryCondition>
+		<Dialogue>
+			<Page>Isn't it amazing?!</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Indeed it is!</Text>
+				<ConditionToCancel>LookAtMural</ConditionToCancel>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Oh right, I should probably go look at it.</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+	</DialogueNode>
+
+</DialogueTree>
