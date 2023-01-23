@@ -6,6 +6,8 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
 			<Page>Okay interesting, the light is red for this one. Wait no, it’s blue up there, it’s just turning red as it gets deeper. Maybe the energy is being converted?</Page>
+			<Page>Looks like the path is headed back in the direction of my ship's marker. In case you can't see it for some reason.</Page>
+			<Page>Can't imagine why.</Page>
 		</Dialogue>
 	</DialogueNode>
 

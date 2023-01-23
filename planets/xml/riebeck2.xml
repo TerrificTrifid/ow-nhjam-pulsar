@@ -1,0 +1,28 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Riebeck</NameField>
+
+	<DialogueNode>
+		<Name>0</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hatchling?! What are you doing here?! I mean, fantastic job getting here!</Page>
+			<Page>I- okay, obviously so much has happened! You’ve probably read my notes but <![CDATA[<i>wow</i>]]>, this... um... </Page>
+			<Page>This mural here...</Page>
+			<Page>...</Page>
+			<Page>Yeah no, the ending can wait. Hope this made you laugh though.</Page>
+		</Dialogue>
+
+		<SetCondition>TalkedToRiebeck</SetCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<EntryCondition>TalkedToRiebeck</EntryCondition>
+		<Dialogue>
+			<Page>At least the core looks pretty cool despite all this.</Page>
+			<Page>Ambient light works wonders.</Page>
+		</Dialogue>
+		
+	</DialogueNode>
+
+</DialogueTree>

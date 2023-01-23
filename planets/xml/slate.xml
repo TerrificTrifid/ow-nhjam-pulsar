@@ -6,11 +6,12 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
 			<Page>Hey, can you check on Riebeck? They radioed home saying they were about to invesgitate something extraordinary, but we haven't heard them since.</Page>
+			<Page>Just kidding, haha. That was a joke. Unrelated, your ship now has a warp drive!</Page>
 		</Dialogue>
 
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Sure thing.</Text>
+				<Text>Oh...</Text>
 			</DialogueOption>
 		</DialogueOptionsList>
 

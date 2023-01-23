@@ -5,9 +5,11 @@
 		<Name>0</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>So the towers continue underground!</Page>
+			<Page>So the towers <![CDATA[<i>do</i>]]> continue underground!</Page>
 			<Page>It looks like the light is traveling downward as it pulsates... oh, I bet it’s energy! Energy from the star, being collected and sent down to... something. Yeah, that would make sense.</Page>
-			<Page>Alright, let’s see where the path keeps going...</Page>
+			<Page>Alright, let’s see where the path that totally exists keeps going...</Page>
+			<Page>The path that continues in the direction away from the entrance, to be specific. Yep, that one.</Page>
+			<Page>I bet it goes down a giant hole and then to the other tower on the north pole. Good thing I can follow it and find out!</Page>
 		</Dialogue>
 	</DialogueNode>
 

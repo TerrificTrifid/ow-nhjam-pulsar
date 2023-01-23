@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2145239947
+CRC: 2613268455
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9261829f2a21b0dafc0ef7e5bec2af80
+    Hash: 792826ae1c144cac387187ba14d10f9d
   TypeTreeHash:
     serializedVersion: 2
     Hash: 3b606774c8bfd31f07d212a6c2685c71
@@ -51,6 +51,7 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Pulsar/PulsarBeams.prefab
 - Assets/Pulsar/pulsarplanet_draft1.prefab
+- Assets/Pulsar/Entrance.prefab
 - Assets/Pulsar/pulsarplanet_draft1_proxy.prefab
 - Assets/Pulsar/pulsarplanetdraft2_interior.prefab
 - Assets/Pulsar/AmbientLight_Surface.prefab
